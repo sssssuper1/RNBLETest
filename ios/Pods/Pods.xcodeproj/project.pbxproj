@@ -1,0 +1,1115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF48DA113D76245FCEA025E5033AE1C /* TacxService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14327B867FAF619A83206B8002611FE1 /* TacxService.swift */; };
+		16C4380364846A7D6DCEDEF3D59BF09F /* CycleOpsSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406DE4313BFC14194F80EBA7C865F38 /* CycleOpsSerializer.swift */; };
+		1D4AF22336E08761EA71CE1218E1CB37 /* Signals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8F59E1DE4FFA4246A23160147F40F1 /* Signals.framework */; };
+		3709398B78A566FA3AC8BA63E504E3CC /* SwiftySensorsTrainers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 039925C3492D370FDBBB65A3B81AD7CE /* SwiftySensorsTrainers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B4964D8FBC05B872E345387FA391417 /* InRide2Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579F6425C604BE02159BA3B60728950 /* InRide2Service.swift */; };
+		3FA01E435D8243667A9E538091AD9B05 /* Signals-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8FB78CDB4A9532260006DAE673A162 /* Signals-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45AC4FC85CFCDD20CBF5F8C616A9F6C0 /* WahooTrainerCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599AABA597643EC2CBE0F7817110231 /* WahooTrainerCharacteristic.swift */; };
+		47E829BF0CB6A0752A19217F46F68EFD /* SwiftySensors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB50588880339462521B668050E90BE /* SwiftySensors-dummy.m */; };
+		4A57EF17C10DB480FDA6F3838E906360 /* SwiftySensors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C439CC38D659D40037A20CD3C6E63C49 /* SwiftySensors.framework */; };
+		5002A770917F3C8C88908198AD847AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F19AF794DDE8EBEBF766D9F7DD18146 /* Foundation.framework */; };
+		54B05A38BB8399A28306657D14FB6FD1 /* CyclingSpeedCadenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF4279E1031C8EEC8A7D7E9C93D264 /* CyclingSpeedCadenceService.swift */; };
+		58974257893B4C7D4A44AE188E913620 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B8853181EBF9AA3ABBDA73FFC9A2D /* Signal.swift */; };
+		5E24CDF1D06C14955DD280A864D212B6 /* CyclingSpeedCadenceSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA89BC9EB22790FF69572C63BC30AD /* CyclingSpeedCadenceSerializer.swift */; };
+		6C3D6C01093F3AB41F6085F6E4C24EAF /* Characteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EECCFFD723A59E95F6E3B78CE2E740 /* Characteristic.swift */; };
+		6EB614686804813AB3E29685A4D8F19C /* SensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29038DC4711EB5971736EA2664576FE /* SensorManager.swift */; };
+		71C245FA32447E05318F2099F2604E72 /* RSSINormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A779767316EDE16AFA023158A0030 /* RSSINormalizer.swift */; };
+		7280CBD83E0227F49669DC67B7DB5CC2 /* KineticInRide.h in Headers */ = {isa = PBXBuildFile; fileRef = BF57A2914FC6AA76C3974BA46D2844B4 /* KineticInRide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7505611C9276B5A7FD4B6D1E77E22885 /* Signals-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D30407E79E4CBA85A26B6E7E6FAFF1 /* Signals-dummy.m */; };
+		78B81EAA5196ED7AEC1975CF127AA9F0 /* CycleOpsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E378B4ED32949228B7E79AD7AE816207 /* CycleOpsService.swift */; };
+		7E802FB777A7AAC91970EE9430EDA1BB /* UIControl+Signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9891D22D4850F6367C9E02F4846FC97 /* UIControl+Signals.swift */; };
+		881423CF516CB56D44AE1D094F70B0E0 /* DeviceInformationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEAC492D77223437D9A4B263EA1BD05 /* DeviceInformationService.swift */; };
+		88ADAC8043FFB8D44839097230DE1A4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F19AF794DDE8EBEBF766D9F7DD18146 /* Foundation.framework */; };
+		89A7240CA847787AABD9389AA1294FCC /* HeartRateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736006467CB256AE08C3E6F6E9C1EA6 /* HeartRateService.swift */; };
+		8FA35C46E93FE65D2BFE424E9D26CEE3 /* SwiftySensors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 511DBECAE81D3BB599C0F33BE1FDE360 /* SwiftySensors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93B069A77BD169D4019848D652D18C31 /* Signals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8F59E1DE4FFA4246A23160147F40F1 /* Signals.framework */; };
+		A32410806E461C2341E8CEB5269D5F93 /* CoreBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC7DEB54AFCD1869677E3D07163872 /* CoreBluetooth.swift */; };
+		A7E328EB5752D4188DA697E4ADA28B06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F19AF794DDE8EBEBF766D9F7DD18146 /* Foundation.framework */; };
+		A97F7B2BB0791A39882B155A090A789C /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FFF3D7786EF2C36860B52A6445763 /* Operators.swift */; };
+		AAA5BDD83806649ABDF5EF22079C693C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079874273C7D8C2E1BAB52E7683ADA27 /* Service.swift */; };
+		AC6300ABCAE2510D4854B37F1FDEABF5 /* HeartRateSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443BA7B8F165066F1B0E4F3A9313DB8D /* HeartRateSerializer.swift */; };
+		AD21132AC5F1C08B0FDB74FFEBED12DA /* CyclingPowerSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2529DAA3475378C67CA92925A8D856 /* CyclingPowerSerializer.swift */; };
+		AE6FB824641AE66EB5293ADCB39021A8 /* KineticControl.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6EB16BE75BC56C3866421054DB4970 /* KineticControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF7E72971698E0A30D188428D140B9F /* WahooTrainerSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222B5B0010948ACA7757B60DB524919 /* WahooTrainerSerializer.swift */; };
+		C5A11F2ABE88263E932D970D4B2C2330 /* CyclingPowerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6EF29FCE7EED0697286405B760BC53 /* CyclingPowerService.swift */; };
+		C7BF44EF51FA2D35F49B457F9AF58153 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AFAF7B1D7B796A390451096473F2E9 /* Sensor.swift */; };
+		D0D7E88B24BBD27C9AD4D6AAE1567BBE /* Pods-RNBLETest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D74E7727325F877C82B5BA3B0440CBCB /* Pods-RNBLETest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1032B7C8FC889F72D2BBED1447B2EBC /* Pods-RNBLETest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6A0CE6660CFF63A2AEAC4206318405 /* Pods-RNBLETest-dummy.m */; };
+		D20239FA28809BBF3413FDB6ECD4229E /* KineticSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D43DE08F94503D436837C6840D4BBC /* KineticSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D878593CE90A83A0D7C4C97510C06E50 /* TacxSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CECD2BE9C99185C90CCB55EE38B1D /* TacxSerializer.swift */; };
+		D87AB77CEE42E6C5A7247AA7C0751B4E /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4457F75F0929FC4EE37A0E8D9A60737D /* AssociatedObject.swift */; };
+		D9CE5DAB7722B5E91DA5A6081B09DBC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F19AF794DDE8EBEBF766D9F7DD18146 /* Foundation.framework */; };
+		E0D8AF44CF9FB6ABFD030B2A78AD0BB9 /* CyclingSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF2078A7A260346F5E95AAC324B3A3 /* CyclingSerializer.swift */; };
+		EBC863993E1E7DFC9B4B4C5EE5BA270E /* SwiftySensorsTrainers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D304CEFA7842A6AB22EF7A2DFB356D5 /* SwiftySensorsTrainers-dummy.m */; };
+		FD8F5E3C0AF7733D1F6F9DCA67E5F30A /* SmartControlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F565C427AC3A55E36365E3507C16E /* SmartControlService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B67B8E8B0CF3BFCAF49C79064CC98B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539B786522C0F2CAAD24929898C1FF58;
+			remoteInfo = Signals;
+		};
+		238B18EFBC81DF0AE3C463F8FB8BE9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539B786522C0F2CAAD24929898C1FF58;
+			remoteInfo = Signals;
+		};
+		75507AC83A217345C66DEABFD072A5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FCA204DE4CCF1414AC127DA1886B062;
+			remoteInfo = SwiftySensors;
+		};
+		C522150479C50E22916646A9B6F0BDE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539B786522C0F2CAAD24929898C1FF58;
+			remoteInfo = Signals;
+		};
+		CD0A3B8C56B2FDCAF8332F9E104A0768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FCA204DE4CCF1414AC127DA1886B062;
+			remoteInfo = SwiftySensors;
+		};
+		D72CC6CEC7261D03C8ECDA29EDE258D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C993EC169EBFA0DA6B60D5343FD92F;
+			remoteInfo = SwiftySensorsTrainers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EECCFFD723A59E95F6E3B78CE2E740 /* Characteristic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Characteristic.swift; path = Sources/Characteristic.swift; sourceTree = "<group>"; };
+		039925C3492D370FDBBB65A3B81AD7CE /* SwiftySensorsTrainers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySensorsTrainers-umbrella.h"; sourceTree = "<group>"; };
+		056E0691698E6885D12B23419B678D72 /* SwiftySensors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySensors-prefix.pch"; sourceTree = "<group>"; };
+		079874273C7D8C2E1BAB52E7683ADA27 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Sources/Service.swift; sourceTree = "<group>"; };
+		0A9881997EF9057DA218ADC80CBF8B10 /* Pods-RNBLETest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNBLETest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EFF4279E1031C8EEC8A7D7E9C93D264 /* CyclingSpeedCadenceService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CyclingSpeedCadenceService.swift; path = Sources/CyclingSpeedCadenceService.swift; sourceTree = "<group>"; };
+		0F19AF794DDE8EBEBF766D9F7DD18146 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		14327B867FAF619A83206B8002611FE1 /* TacxService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TacxService.swift; path = Source/TacxService.swift; sourceTree = "<group>"; };
+		1579F6425C604BE02159BA3B60728950 /* InRide2Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InRide2Service.swift; path = Source/InRide2Service.swift; sourceTree = "<group>"; };
+		1736006467CB256AE08C3E6F6E9C1EA6 /* HeartRateService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeartRateService.swift; path = Sources/HeartRateService.swift; sourceTree = "<group>"; };
+		19E09760AC15E0CFF67AFF05EAE4D540 /* SwiftySensorsTrainers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySensorsTrainers-prefix.pch"; sourceTree = "<group>"; };
+		1A9B8853181EBF9AA3ABBDA73FFC9A2D /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = Signals/Signal.swift; sourceTree = "<group>"; };
+		1B2529DAA3475378C67CA92925A8D856 /* CyclingPowerSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CyclingPowerSerializer.swift; path = Sources/CyclingPowerSerializer.swift; sourceTree = "<group>"; };
+		1E99069D37F9D57A0725111855E1A89A /* Pods-RNBLETest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNBLETest-frameworks.sh"; sourceTree = "<group>"; };
+		23AFAF7B1D7B796A390451096473F2E9 /* Sensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sensor.swift; path = Sources/Sensor.swift; sourceTree = "<group>"; };
+		2E6EF29FCE7EED0697286405B760BC53 /* CyclingPowerService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CyclingPowerService.swift; path = Sources/CyclingPowerService.swift; sourceTree = "<group>"; };
+		2EEF2078A7A260346F5E95AAC324B3A3 /* CyclingSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CyclingSerializer.swift; path = Sources/CyclingSerializer.swift; sourceTree = "<group>"; };
+		2F8FB78CDB4A9532260006DAE673A162 /* Signals-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Signals-umbrella.h"; sourceTree = "<group>"; };
+		33B6CD51A1BE4966A5922375F5E43799 /* SwiftySensorsTrainers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftySensorsTrainers.xcconfig; sourceTree = "<group>"; };
+		3D304CEFA7842A6AB22EF7A2DFB356D5 /* SwiftySensorsTrainers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftySensorsTrainers-dummy.m"; sourceTree = "<group>"; };
+		443BA7B8F165066F1B0E4F3A9313DB8D /* HeartRateSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeartRateSerializer.swift; path = Sources/HeartRateSerializer.swift; sourceTree = "<group>"; };
+		4457F75F0929FC4EE37A0E8D9A60737D /* AssociatedObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociatedObject.swift; path = Signals/ios/AssociatedObject.swift; sourceTree = "<group>"; };
+		4B9A844659A4DCEEF7EE0E76975EB3ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		511DBECAE81D3BB599C0F33BE1FDE360 /* SwiftySensors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySensors-umbrella.h"; sourceTree = "<group>"; };
+		5222B5B0010948ACA7757B60DB524919 /* WahooTrainerSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WahooTrainerSerializer.swift; path = Source/WahooTrainerSerializer.swift; sourceTree = "<group>"; };
+		56B42DF66DDC3D9538FBFF1DDD953035 /* Pods-RNBLETest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNBLETest.release.xcconfig"; sourceTree = "<group>"; };
+		6AD7CB46BA0199BC2965CFD4B79B0E78 /* Pods-RNBLETest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RNBLETest.modulemap"; sourceTree = "<group>"; };
+		6BEAC492D77223437D9A4B263EA1BD05 /* DeviceInformationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceInformationService.swift; path = Sources/DeviceInformationService.swift; sourceTree = "<group>"; };
+		6F116C5011179AEF37149B644EA74241 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E052DF96ACCC00E41D75F516CF4A7A /* Signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7599AABA597643EC2CBE0F7817110231 /* WahooTrainerCharacteristic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WahooTrainerCharacteristic.swift; path = Source/WahooTrainerCharacteristic.swift; sourceTree = "<group>"; };
+		7C2A779767316EDE16AFA023158A0030 /* RSSINormalizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSINormalizer.swift; path = Sources/RSSINormalizer.swift; sourceTree = "<group>"; };
+		8260F957501A466B4CDA4EA1A08FF739 /* Pods-RNBLETest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNBLETest-acknowledgements.plist"; sourceTree = "<group>"; };
+		8628573DE4B84DD6C92343084CC4DBA9 /* SwiftySensorsTrainers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftySensorsTrainers.modulemap; sourceTree = "<group>"; };
+		914DB525FACDC038242457F8F954F772 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91AF0948821FDC7BBA1516CAACE840CF /* Pods-RNBLETest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNBLETest.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D43DE08F94503D436837C6840D4BBC /* KineticSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KineticSDK.h; path = Headers/KineticSDK.h; sourceTree = "<group>"; };
+		94973161590B0269348BE3F438037D1A /* Pods_RNBLETest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNBLETest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2318F90F99BDE4EB62158ACB2E78CD0 /* SwiftySensors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftySensors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A371764482C373C55721ED0D75FB29A0 /* SwiftySensorsTrainers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftySensorsTrainers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87914A95C3E88E36DE26937A5FC8946 /* Pods-RNBLETest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNBLETest-resources.sh"; sourceTree = "<group>"; };
+		AF7F565C427AC3A55E36365E3507C16E /* SmartControlService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartControlService.swift; path = Source/SmartControlService.swift; sourceTree = "<group>"; };
+		B89FCE5FDDAEA4EAC5A085E52386CADB /* Signals.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Signals.xcconfig; sourceTree = "<group>"; };
+		BB6EB16BE75BC56C3866421054DB4970 /* KineticControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KineticControl.h; path = Headers/KineticControl.h; sourceTree = "<group>"; };
+		BF57A2914FC6AA76C3974BA46D2844B4 /* KineticInRide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KineticInRide.h; path = Headers/KineticInRide.h; sourceTree = "<group>"; };
+		C00FFF3D7786EF2C36860B52A6445763 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		C29038DC4711EB5971736EA2664576FE /* SensorManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorManager.swift; path = Sources/SensorManager.swift; sourceTree = "<group>"; };
+		C439CC38D659D40037A20CD3C6E63C49 /* SwiftySensors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftySensors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46ADF132EB8B5B2DD7C7478143CCB97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6FCC8708B3BF4D954DF34FE48DE1213 /* Signals-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Signals-prefix.pch"; sourceTree = "<group>"; };
+		CD7CECD2BE9C99185C90CCB55EE38B1D /* TacxSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TacxSerializer.swift; path = Source/TacxSerializer.swift; sourceTree = "<group>"; };
+		CE8F59E1DE4FFA4246A23160147F40F1 /* Signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00E04D28C33A4D019119C6CB29A7D33 /* Signals.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Signals.modulemap; sourceTree = "<group>"; };
+		D2A841EE739597A0359E7ED85D849A8A /* SwiftySensors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftySensors.modulemap; sourceTree = "<group>"; };
+		D74E7727325F877C82B5BA3B0440CBCB /* Pods-RNBLETest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNBLETest-umbrella.h"; sourceTree = "<group>"; };
+		DBADA463FDB36D54C607FB6D514CB002 /* SwiftySensors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftySensors.xcconfig; sourceTree = "<group>"; };
+		DDB50588880339462521B668050E90BE /* SwiftySensors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftySensors-dummy.m"; sourceTree = "<group>"; };
+		E378B4ED32949228B7E79AD7AE816207 /* CycleOpsService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CycleOpsService.swift; path = Source/CycleOpsService.swift; sourceTree = "<group>"; };
+		E9891D22D4850F6367C9E02F4846FC97 /* UIControl+Signals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+Signals.swift"; path = "Signals/ios/UIControl+Signals.swift"; sourceTree = "<group>"; };
+		EA6FBA81688F459EE00CF9AB59E20C78 /* libKineticSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libKineticSDK.a; path = Libraries/libKineticSDK.a; sourceTree = "<group>"; };
+		EEBC7DEB54AFCD1869677E3D07163872 /* CoreBluetooth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreBluetooth.swift; path = Sources/CoreBluetooth.swift; sourceTree = "<group>"; };
+		F1DA89BC9EB22790FF69572C63BC30AD /* CyclingSpeedCadenceSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CyclingSpeedCadenceSerializer.swift; path = Sources/CyclingSpeedCadenceSerializer.swift; sourceTree = "<group>"; };
+		F406DE4313BFC14194F80EBA7C865F38 /* CycleOpsSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CycleOpsSerializer.swift; path = Source/CycleOpsSerializer.swift; sourceTree = "<group>"; };
+		F8D30407E79E4CBA85A26B6E7E6FAFF1 /* Signals-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Signals-dummy.m"; sourceTree = "<group>"; };
+		FF6A0CE6660CFF63A2AEAC4206318405 /* Pods-RNBLETest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNBLETest-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		294BFCC7D46742ADF9919BCA920C1E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CE5DAB7722B5E91DA5A6081B09DBC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7AC411D308026DF841C5F05BF26D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ADAC8043FFB8D44839097230DE1A4D /* Foundation.framework in Frameworks */,
+				93B069A77BD169D4019848D652D18C31 /* Signals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1837D27F250BA281C58E005704108DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5002A770917F3C8C88908198AD847AE4 /* Foundation.framework in Frameworks */,
+				1D4AF22336E08761EA71CE1218E1CB37 /* Signals.framework in Frameworks */,
+				4A57EF17C10DB480FDA6F3838E906360 /* SwiftySensors.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7640848BC3FA6AA67725FAE6E97001E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E328EB5752D4188DA697E4ADA28B06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19F488606F36E0E614F092B70D6F7FA6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0F19AF794DDE8EBEBF766D9F7DD18146 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A24811E86BAD395B931F379C774A3FD /* Signals */ = {
+			isa = PBXGroup;
+			children = (
+				4457F75F0929FC4EE37A0E8D9A60737D /* AssociatedObject.swift */,
+				1A9B8853181EBF9AA3ABBDA73FFC9A2D /* Signal.swift */,
+				E9891D22D4850F6367C9E02F4846FC97 /* UIControl+Signals.swift */,
+				87DC35F9A9EB892D8A3AAE716D29F6DB /* Support Files */,
+			);
+			path = Signals;
+			sourceTree = "<group>";
+		};
+		558040B71D9052EC3275E201B61F3D52 /* SwiftySensors */ = {
+			isa = PBXGroup;
+			children = (
+				00EECCFFD723A59E95F6E3B78CE2E740 /* Characteristic.swift */,
+				EEBC7DEB54AFCD1869677E3D07163872 /* CoreBluetooth.swift */,
+				1B2529DAA3475378C67CA92925A8D856 /* CyclingPowerSerializer.swift */,
+				2E6EF29FCE7EED0697286405B760BC53 /* CyclingPowerService.swift */,
+				2EEF2078A7A260346F5E95AAC324B3A3 /* CyclingSerializer.swift */,
+				F1DA89BC9EB22790FF69572C63BC30AD /* CyclingSpeedCadenceSerializer.swift */,
+				0EFF4279E1031C8EEC8A7D7E9C93D264 /* CyclingSpeedCadenceService.swift */,
+				6BEAC492D77223437D9A4B263EA1BD05 /* DeviceInformationService.swift */,
+				443BA7B8F165066F1B0E4F3A9313DB8D /* HeartRateSerializer.swift */,
+				1736006467CB256AE08C3E6F6E9C1EA6 /* HeartRateService.swift */,
+				C00FFF3D7786EF2C36860B52A6445763 /* Operators.swift */,
+				7C2A779767316EDE16AFA023158A0030 /* RSSINormalizer.swift */,
+				23AFAF7B1D7B796A390451096473F2E9 /* Sensor.swift */,
+				C29038DC4711EB5971736EA2664576FE /* SensorManager.swift */,
+				079874273C7D8C2E1BAB52E7683ADA27 /* Service.swift */,
+				BC16B20434F00CA86E6D21A893444E46 /* Serializers */,
+				7B904839368BF8718142F8313D60D1C4 /* Support Files */,
+			);
+			path = SwiftySensors;
+			sourceTree = "<group>";
+		};
+		5892E809E0492561E5D2E0CD744C3B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94973161590B0269348BE3F438037D1A /* Pods_RNBLETest.framework */,
+				74E052DF96ACCC00E41D75F516CF4A7A /* Signals.framework */,
+				A2318F90F99BDE4EB62158ACB2E78CD0 /* SwiftySensors.framework */,
+				A371764482C373C55721ED0D75FB29A0 /* SwiftySensorsTrainers.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B904839368BF8718142F8313D60D1C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F116C5011179AEF37149B644EA74241 /* Info.plist */,
+				D2A841EE739597A0359E7ED85D849A8A /* SwiftySensors.modulemap */,
+				DBADA463FDB36D54C607FB6D514CB002 /* SwiftySensors.xcconfig */,
+				DDB50588880339462521B668050E90BE /* SwiftySensors-dummy.m */,
+				056E0691698E6885D12B23419B678D72 /* SwiftySensors-prefix.pch */,
+				511DBECAE81D3BB599C0F33BE1FDE360 /* SwiftySensors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftySensors";
+			sourceTree = "<group>";
+		};
+		7BEB5FC449148340B237D7B3F1453EC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA6FBA81688F459EE00CF9AB59E20C78 /* libKineticSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D39640E2E6F61BDE12781E45B277AB5 /* Pods-RNBLETest */ = {
+			isa = PBXGroup;
+			children = (
+				C46ADF132EB8B5B2DD7C7478143CCB97 /* Info.plist */,
+				6AD7CB46BA0199BC2965CFD4B79B0E78 /* Pods-RNBLETest.modulemap */,
+				0A9881997EF9057DA218ADC80CBF8B10 /* Pods-RNBLETest-acknowledgements.markdown */,
+				8260F957501A466B4CDA4EA1A08FF739 /* Pods-RNBLETest-acknowledgements.plist */,
+				FF6A0CE6660CFF63A2AEAC4206318405 /* Pods-RNBLETest-dummy.m */,
+				1E99069D37F9D57A0725111855E1A89A /* Pods-RNBLETest-frameworks.sh */,
+				A87914A95C3E88E36DE26937A5FC8946 /* Pods-RNBLETest-resources.sh */,
+				D74E7727325F877C82B5BA3B0440CBCB /* Pods-RNBLETest-umbrella.h */,
+				91AF0948821FDC7BBA1516CAACE840CF /* Pods-RNBLETest.debug.xcconfig */,
+				56B42DF66DDC3D9538FBFF1DDD953035 /* Pods-RNBLETest.release.xcconfig */,
+			);
+			name = "Pods-RNBLETest";
+			path = "Target Support Files/Pods-RNBLETest";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C775D19939C630AF8B44A310127B9308 /* Frameworks */,
+				BFF6BE88F6559F4F795F9A38F693EE04 /* Pods */,
+				5892E809E0492561E5D2E0CD744C3B4F /* Products */,
+				7FA9B83F6E7BB0A79B9B30D4BEF3CABF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FA9B83F6E7BB0A79B9B30D4BEF3CABF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D39640E2E6F61BDE12781E45B277AB5 /* Pods-RNBLETest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7FBB69CFD9C9A5E3B9241AB6EF9B0D0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				914DB525FACDC038242457F8F954F772 /* Info.plist */,
+				8628573DE4B84DD6C92343084CC4DBA9 /* SwiftySensorsTrainers.modulemap */,
+				33B6CD51A1BE4966A5922375F5E43799 /* SwiftySensorsTrainers.xcconfig */,
+				3D304CEFA7842A6AB22EF7A2DFB356D5 /* SwiftySensorsTrainers-dummy.m */,
+				19E09760AC15E0CFF67AFF05EAE4D540 /* SwiftySensorsTrainers-prefix.pch */,
+				039925C3492D370FDBBB65A3B81AD7CE /* SwiftySensorsTrainers-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftySensorsTrainers";
+			sourceTree = "<group>";
+		};
+		87DC35F9A9EB892D8A3AAE716D29F6DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B9A844659A4DCEEF7EE0E76975EB3ED /* Info.plist */,
+				D00E04D28C33A4D019119C6CB29A7D33 /* Signals.modulemap */,
+				B89FCE5FDDAEA4EAC5A085E52386CADB /* Signals.xcconfig */,
+				F8D30407E79E4CBA85A26B6E7E6FAFF1 /* Signals-dummy.m */,
+				C6FCC8708B3BF4D954DF34FE48DE1213 /* Signals-prefix.pch */,
+				2F8FB78CDB4A9532260006DAE673A162 /* Signals-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Signals";
+			sourceTree = "<group>";
+		};
+		BC16B20434F00CA86E6D21A893444E46 /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Serializers;
+			sourceTree = "<group>";
+		};
+		BFF6BE88F6559F4F795F9A38F693EE04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A24811E86BAD395B931F379C774A3FD /* Signals */,
+				558040B71D9052EC3275E201B61F3D52 /* SwiftySensors */,
+				E3736E4804E4B41D9CEC39497E9C13B5 /* SwiftySensorsTrainers */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C775D19939C630AF8B44A310127B9308 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F59E1DE4FFA4246A23160147F40F1 /* Signals.framework */,
+				C439CC38D659D40037A20CD3C6E63C49 /* SwiftySensors.framework */,
+				19F488606F36E0E614F092B70D6F7FA6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3736E4804E4B41D9CEC39497E9C13B5 /* SwiftySensorsTrainers */ = {
+			isa = PBXGroup;
+			children = (
+				F406DE4313BFC14194F80EBA7C865F38 /* CycleOpsSerializer.swift */,
+				E378B4ED32949228B7E79AD7AE816207 /* CycleOpsService.swift */,
+				1579F6425C604BE02159BA3B60728950 /* InRide2Service.swift */,
+				BB6EB16BE75BC56C3866421054DB4970 /* KineticControl.h */,
+				BF57A2914FC6AA76C3974BA46D2844B4 /* KineticInRide.h */,
+				93D43DE08F94503D436837C6840D4BBC /* KineticSDK.h */,
+				AF7F565C427AC3A55E36365E3507C16E /* SmartControlService.swift */,
+				CD7CECD2BE9C99185C90CCB55EE38B1D /* TacxSerializer.swift */,
+				14327B867FAF619A83206B8002611FE1 /* TacxService.swift */,
+				7599AABA597643EC2CBE0F7817110231 /* WahooTrainerCharacteristic.swift */,
+				5222B5B0010948ACA7757B60DB524919 /* WahooTrainerSerializer.swift */,
+				7BEB5FC449148340B237D7B3F1453EC0 /* Frameworks */,
+				7FBB69CFD9C9A5E3B9241AB6EF9B0D0D /* Support Files */,
+			);
+			path = SwiftySensorsTrainers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D6079CBE699E7B95AF3EA7282E25136 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA01E435D8243667A9E538091AD9B05 /* Signals-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF9F022930FFB3E47983C0218DC13E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6FB824641AE66EB5293ADCB39021A8 /* KineticControl.h in Headers */,
+				7280CBD83E0227F49669DC67B7DB5CC2 /* KineticInRide.h in Headers */,
+				D20239FA28809BBF3413FDB6ECD4229E /* KineticSDK.h in Headers */,
+				3709398B78A566FA3AC8BA63E504E3CC /* SwiftySensorsTrainers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1FD360D97CF3EC725600813701AB66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA35C46E93FE65D2BFE424E9D26CEE3 /* SwiftySensors-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB84EFB9163AD1EEF5986E02B3AFB146 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D7E88B24BBD27C9AD4D6AAE1567BBE /* Pods-RNBLETest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FCA204DE4CCF1414AC127DA1886B062 /* SwiftySensors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4020ADA67BE2AF1349A7980AACDE7DD /* Build configuration list for PBXNativeTarget "SwiftySensors" */;
+			buildPhases = (
+				68187F5C8FD568EAC1CF08BCB5559756 /* Sources */,
+				8B7AC411D308026DF841C5F05BF26D6F /* Frameworks */,
+				9B1FD360D97CF3EC725600813701AB66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EFBE76586DD8C9ECA2DC0B2D1A03BC0 /* PBXTargetDependency */,
+			);
+			name = SwiftySensors;
+			productName = SwiftySensors;
+			productReference = A2318F90F99BDE4EB62158ACB2E78CD0 /* SwiftySensors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34C993EC169EBFA0DA6B60D5343FD92F /* SwiftySensorsTrainers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E6DE0E987C5938B86232176254F034 /* Build configuration list for PBXNativeTarget "SwiftySensorsTrainers" */;
+			buildPhases = (
+				24C5EA04B12118ED36B9857E00AD3394 /* Sources */,
+				D1837D27F250BA281C58E005704108DD /* Frameworks */,
+				8FF9F022930FFB3E47983C0218DC13E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3E974105393D8439AFC93E41C3EB7F1 /* PBXTargetDependency */,
+				2512D30DF166CBC88D43F0EC93F00EFE /* PBXTargetDependency */,
+			);
+			name = SwiftySensorsTrainers;
+			productName = SwiftySensorsTrainers;
+			productReference = A371764482C373C55721ED0D75FB29A0 /* SwiftySensorsTrainers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		539B786522C0F2CAAD24929898C1FF58 /* Signals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1808878383A771BF0F97DFEBE126EB9F /* Build configuration list for PBXNativeTarget "Signals" */;
+			buildPhases = (
+				EEFC63A640DC44A48F4219F33FAD090A /* Sources */,
+				294BFCC7D46742ADF9919BCA920C1E7B /* Frameworks */,
+				0D6079CBE699E7B95AF3EA7282E25136 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Signals;
+			productName = Signals;
+			productReference = 74E052DF96ACCC00E41D75F516CF4A7A /* Signals.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54955CA42168C89E72B461DA128168B6 /* Pods-RNBLETest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E499A92D05EF364006B18334CEBF3E00 /* Build configuration list for PBXNativeTarget "Pods-RNBLETest" */;
+			buildPhases = (
+				386DD2DE99FEBF16974860D97AF9AAEC /* Sources */,
+				E7640848BC3FA6AA67725FAE6E97001E /* Frameworks */,
+				BB84EFB9163AD1EEF5986E02B3AFB146 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5742AD8CABB41FC599568A766A0D74E8 /* PBXTargetDependency */,
+				640A1DE0F31844C4F7CB0A610A83E9F1 /* PBXTargetDependency */,
+				BB8A1D9B31A23ED55A5813614705750B /* PBXTargetDependency */,
+			);
+			name = "Pods-RNBLETest";
+			productName = "Pods-RNBLETest";
+			productReference = 94973161590B0269348BE3F438037D1A /* Pods_RNBLETest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5892E809E0492561E5D2E0CD744C3B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54955CA42168C89E72B461DA128168B6 /* Pods-RNBLETest */,
+				539B786522C0F2CAAD24929898C1FF58 /* Signals */,
+				0FCA204DE4CCF1414AC127DA1886B062 /* SwiftySensors */,
+				34C993EC169EBFA0DA6B60D5343FD92F /* SwiftySensorsTrainers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C5EA04B12118ED36B9857E00AD3394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C4380364846A7D6DCEDEF3D59BF09F /* CycleOpsSerializer.swift in Sources */,
+				78B81EAA5196ED7AEC1975CF127AA9F0 /* CycleOpsService.swift in Sources */,
+				3B4964D8FBC05B872E345387FA391417 /* InRide2Service.swift in Sources */,
+				FD8F5E3C0AF7733D1F6F9DCA67E5F30A /* SmartControlService.swift in Sources */,
+				EBC863993E1E7DFC9B4B4C5EE5BA270E /* SwiftySensorsTrainers-dummy.m in Sources */,
+				D878593CE90A83A0D7C4C97510C06E50 /* TacxSerializer.swift in Sources */,
+				0FF48DA113D76245FCEA025E5033AE1C /* TacxService.swift in Sources */,
+				45AC4FC85CFCDD20CBF5F8C616A9F6C0 /* WahooTrainerCharacteristic.swift in Sources */,
+				BFF7E72971698E0A30D188428D140B9F /* WahooTrainerSerializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386DD2DE99FEBF16974860D97AF9AAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1032B7C8FC889F72D2BBED1447B2EBC /* Pods-RNBLETest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68187F5C8FD568EAC1CF08BCB5559756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3D6C01093F3AB41F6085F6E4C24EAF /* Characteristic.swift in Sources */,
+				A32410806E461C2341E8CEB5269D5F93 /* CoreBluetooth.swift in Sources */,
+				AD21132AC5F1C08B0FDB74FFEBED12DA /* CyclingPowerSerializer.swift in Sources */,
+				C5A11F2ABE88263E932D970D4B2C2330 /* CyclingPowerService.swift in Sources */,
+				E0D8AF44CF9FB6ABFD030B2A78AD0BB9 /* CyclingSerializer.swift in Sources */,
+				5E24CDF1D06C14955DD280A864D212B6 /* CyclingSpeedCadenceSerializer.swift in Sources */,
+				54B05A38BB8399A28306657D14FB6FD1 /* CyclingSpeedCadenceService.swift in Sources */,
+				881423CF516CB56D44AE1D094F70B0E0 /* DeviceInformationService.swift in Sources */,
+				AC6300ABCAE2510D4854B37F1FDEABF5 /* HeartRateSerializer.swift in Sources */,
+				89A7240CA847787AABD9389AA1294FCC /* HeartRateService.swift in Sources */,
+				A97F7B2BB0791A39882B155A090A789C /* Operators.swift in Sources */,
+				71C245FA32447E05318F2099F2604E72 /* RSSINormalizer.swift in Sources */,
+				C7BF44EF51FA2D35F49B457F9AF58153 /* Sensor.swift in Sources */,
+				6EB614686804813AB3E29685A4D8F19C /* SensorManager.swift in Sources */,
+				AAA5BDD83806649ABDF5EF22079C693C /* Service.swift in Sources */,
+				47E829BF0CB6A0752A19217F46F68EFD /* SwiftySensors-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC63A640DC44A48F4219F33FAD090A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87AB77CEE42E6C5A7247AA7C0751B4E /* AssociatedObject.swift in Sources */,
+				58974257893B4C7D4A44AE188E913620 /* Signal.swift in Sources */,
+				7505611C9276B5A7FD4B6D1E77E22885 /* Signals-dummy.m in Sources */,
+				7E802FB777A7AAC91970EE9430EDA1BB /* UIControl+Signals.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EFBE76586DD8C9ECA2DC0B2D1A03BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Signals;
+			target = 539B786522C0F2CAAD24929898C1FF58 /* Signals */;
+			targetProxy = 1B67B8E8B0CF3BFCAF49C79064CC98B3 /* PBXContainerItemProxy */;
+		};
+		2512D30DF166CBC88D43F0EC93F00EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftySensors;
+			target = 0FCA204DE4CCF1414AC127DA1886B062 /* SwiftySensors */;
+			targetProxy = 75507AC83A217345C66DEABFD072A5F0 /* PBXContainerItemProxy */;
+		};
+		5742AD8CABB41FC599568A766A0D74E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Signals;
+			target = 539B786522C0F2CAAD24929898C1FF58 /* Signals */;
+			targetProxy = 238B18EFBC81DF0AE3C463F8FB8BE9B1 /* PBXContainerItemProxy */;
+		};
+		640A1DE0F31844C4F7CB0A610A83E9F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftySensors;
+			target = 0FCA204DE4CCF1414AC127DA1886B062 /* SwiftySensors */;
+			targetProxy = CD0A3B8C56B2FDCAF8332F9E104A0768 /* PBXContainerItemProxy */;
+		};
+		BB8A1D9B31A23ED55A5813614705750B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftySensorsTrainers;
+			target = 34C993EC169EBFA0DA6B60D5343FD92F /* SwiftySensorsTrainers */;
+			targetProxy = D72CC6CEC7261D03C8ECDA29EDE258D5 /* PBXContainerItemProxy */;
+		};
+		F3E974105393D8439AFC93E41C3EB7F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Signals;
+			target = 539B786522C0F2CAAD24929898C1FF58 /* Signals */;
+			targetProxy = C522150479C50E22916646A9B6F0BDE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1D056B5BE03B91A229F5B429456CB9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBADA463FDB36D54C607FB6D514CB002 /* SwiftySensors.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySensors/SwiftySensors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySensors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftySensors/SwiftySensors.modulemap";
+				PRODUCT_MODULE_NAME = SwiftySensors;
+				PRODUCT_NAME = SwiftySensors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59FF4EA624576918F439B6D559092E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B6CD51A1BE4966A5922375F5E43799 /* SwiftySensorsTrainers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySensorsTrainers/SwiftySensorsTrainers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySensorsTrainers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftySensorsTrainers/SwiftySensorsTrainers.modulemap";
+				PRODUCT_MODULE_NAME = SwiftySensorsTrainers;
+				PRODUCT_NAME = SwiftySensorsTrainers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		705D94797DA4FE3CE2BA7281FB7972C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B6CD51A1BE4966A5922375F5E43799 /* SwiftySensorsTrainers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySensorsTrainers/SwiftySensorsTrainers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySensorsTrainers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftySensorsTrainers/SwiftySensorsTrainers.modulemap";
+				PRODUCT_MODULE_NAME = SwiftySensorsTrainers;
+				PRODUCT_NAME = SwiftySensorsTrainers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74F765CD93FBACD842B9627CD7FEA7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B42DF66DDC3D9538FBFF1DDD953035 /* Pods-RNBLETest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RNBLETest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNBLETest/Pods-RNBLETest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A546351C7906BB8B4B651AD2F9F76CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89FCE5FDDAEA4EAC5A085E52386CADB /* Signals.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Signals/Signals-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Signals/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Signals/Signals.modulemap";
+				PRODUCT_MODULE_NAME = Signals;
+				PRODUCT_NAME = Signals;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3228C61C6F2E422BABA9D44A45F2FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AF0948821FDC7BBA1516CAACE840CF /* Pods-RNBLETest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RNBLETest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNBLETest/Pods-RNBLETest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4D5E8C2E5C43BA04A8372352560BDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89FCE5FDDAEA4EAC5A085E52386CADB /* Signals.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Signals/Signals-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Signals/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Signals/Signals.modulemap";
+				PRODUCT_MODULE_NAME = Signals;
+				PRODUCT_NAME = Signals;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7F2F4903C9821704F9A8728A7DA3C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBADA463FDB36D54C607FB6D514CB002 /* SwiftySensors.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySensors/SwiftySensors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySensors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftySensors/SwiftySensors.modulemap";
+				PRODUCT_MODULE_NAME = SwiftySensors;
+				PRODUCT_NAME = SwiftySensors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1808878383A771BF0F97DFEBE126EB9F /* Build configuration list for PBXNativeTarget "Signals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5E8C2E5C43BA04A8372352560BDB5 /* Debug */,
+				A546351C7906BB8B4B651AD2F9F76CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E6DE0E987C5938B86232176254F034 /* Build configuration list for PBXNativeTarget "SwiftySensorsTrainers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705D94797DA4FE3CE2BA7281FB7972C4 /* Debug */,
+				59FF4EA624576918F439B6D559092E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4020ADA67BE2AF1349A7980AACDE7DD /* Build configuration list for PBXNativeTarget "SwiftySensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F2F4903C9821704F9A8728A7DA3C8C /* Debug */,
+				1D056B5BE03B91A229F5B429456CB9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E499A92D05EF364006B18334CEBF3E00 /* Build configuration list for PBXNativeTarget "Pods-RNBLETest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3228C61C6F2E422BABA9D44A45F2FF8 /* Debug */,
+				74F765CD93FBACD842B9627CD7FEA7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

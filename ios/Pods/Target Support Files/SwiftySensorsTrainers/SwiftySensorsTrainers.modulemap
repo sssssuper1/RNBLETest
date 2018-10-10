@@ -1,0 +1,6 @@
+framework module SwiftySensorsTrainers {
+  umbrella header "SwiftySensorsTrainers-umbrella.h"
+
+  export *
+  module * { export * }
+}

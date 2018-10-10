@@ -1,0 +1,6 @@
+framework module Pods_RNBLETest {
+  umbrella header "Pods-RNBLETest-umbrella.h"
+
+  export *
+  module * { export * }
+}
